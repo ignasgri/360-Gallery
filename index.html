@@ -2,13 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>360&deg; Image</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" content="360&deg; Image - A-Frame">
 <link rel="stylesheet" type="text/css" href="lib/customize.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.6.1/aframe-master.js"></script>
 <script type="text/javascript" src="lib/customize.js"></script>
 	<title>360 Image Gallery</title>
 </head>
 <body>
-	<h1>Image Gallery for 360 photos</h1>
-	<img src="">
+	<a-scene>
+      <a-sky src="img.jpg" rotation="0 -130 0"></a-sky>
+
+      <a-text font="kelsonsans" value="Ireland" width="6" position="-2.5 0.25 -1.5"
+              rotation="0 15 0"></a-text>
+    </a-scene>
 </body>
 </html>
